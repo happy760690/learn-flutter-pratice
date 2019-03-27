@@ -10,9 +10,9 @@ void main() {
       ),
       body: GridView(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 3,
+          crossAxisCount: 3, // 列数
           mainAxisSpacing: 2.0,
-          crossAxisSpacing: 2.0,
+          crossAxisSpacing: 2.0, //  列间距
           childAspectRatio: 2.0, // 缩放比例 宽、 高比
         ),
         children: <Widget>[
