@@ -19,7 +19,7 @@ void main() {
 class FlipWidget extends StatelessWidget {
   Widget child;
 
-  FlipWidget({Key key, this.child}): super(key: key);
+  FlipWidget({Key key, this.child}): super(key: key); // key 是必填项相当于构造函数，后面还要用super重新构造一下
 
   @override
   Widget build(BuildContext context) {
